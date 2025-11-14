@@ -1,0 +1,26 @@
+# Replace with the name which you want to give to your EKS cluster
+# Cluster name can have only lowercase alphanumeric characters and hyphens
+# For example: "upyog-demo"
+cluster_name: "mcduat"
+
+# Replace with ssh key name you want
+ssh_key_name: "mcd-uat-ssh-key" 
+
+# Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC10Ae33rM31ZbH3BC3kG33nqONjzILHgPZJQn+Sv9qW/NZE40DXMYoThOZDIsGCReB1OAePlfVGOi55pXSHeFRf/58MjXamO8TGkKy6jnQQVHjv0oR6SqbdlJbK7NPingFYl3k2ZFHsSRLXCH2d/41sA/M8emh3xKE4oV7OvxElDpHln3gXZCKy2roWpcF0eRacLjQe/Lz1ovdSgjStslpDPXK4zL1GDoH0ab402Eg1MfUcucuUPrn7G9oGy0UoX8VSA7ToAVVA52QZj3jjg7Lr9ZJGzS9O07I1jrJqQ8vb9vIT5mO1s+TATM7mc3yQz3TBLtIW/ujgBZKvoknlE5V"
+
+# Name you want to give to your Database
+# DB name must contain only alphanumeric characters
+db_name: "mcduat"
+
+# Replace with DB username you want
+# DB user name must contain only alphanumeric characters
+db_username: "mcduat" 
+
+# Replace with Domain name you want for your web applications
+domain_name: "mcd-uat.sparrowsofetch.in"
+
+# Replace with the name you want to give to your S3 bucket which is used to store the terraform state
+terraform_state_bucket_name: "mcduat12-terraform"
+
+
